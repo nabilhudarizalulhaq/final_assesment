@@ -6,9 +6,10 @@ import 'package:flutter/material.dart';
 class FinalAssesmentView extends StatefulWidget {
   final FinalAssesmentBloc bloc;
 
-  FinalAssesmentView(this.bloc);
+  const FinalAssesmentView(this.bloc);
 
   @override
+  // ignore: library_private_types_in_public_api
   _FinalAssesmentViewState createState() => _FinalAssesmentViewState();
 }
 
